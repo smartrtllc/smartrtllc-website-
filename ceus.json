@@ -1,0 +1,79 @@
+{
+  "updated": "2026-08-25T22:58:23.652982",
+  "updated_display": "August 25, 2026",
+  "total_sources": 6,
+  "active_sources": 4,
+  "journal_current_months": [
+    "Register for the August 2026 Course",
+    "Register for the July 2026 Course",
+    "Register for the June 2026 Course"
+  ],
+  "ceus": [
+    {
+      "id": "aarc-webcasts-\u2014-live-and-archived",
+      "name": "AARC Webcasts \u2014 Live & Archived",
+      "badge": "Multi-Topic",
+      "description": "AARC members earn free CRCE by viewing live webcasts. Members and non-members may view archived webcasts for free \u2014 CRCE credit available to those who pass an accompanying test.",
+      "hours": "1.0+",
+      "url": "https://c.aarc.org/education/aarc_crce/index.asp",
+      "active": false,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "crce-through-the-journal",
+      "name": "CRCE Through the Journal",
+      "badge": "AARC Member Benefit",
+      "description": "Earn up to 12 free CRCE each year. Each month, Respiratory Care journal offers 1.0 CRCE per issue. Read the first five articles and pass a 10-question post-test to earn credit.",
+      "hours": "12.0/yr",
+      "url": "https://www.aarc.org/education/crce-through-the-journal/",
+      "active": true,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "dr\u00e4ger-free-crce-webinars",
+      "name": "Dr\u00e4ger Free CRCE Webinars",
+      "badge": "Neonatal / Critical Care",
+      "description": "Free AARC-approved CRCE webinars from Dr\u00e4ger covering neonatal respiratory support, ventilator management, and best practices. Each program approved for 1.0 CRCE contact hour.",
+      "hours": "1.0",
+      "url": "https://www.draeger.com/en-us_us/Hospital/A-Breath-Ahead",
+      "active": false,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "hamilton-medical-e-academy",
+      "name": "Hamilton Medical e-Academy",
+      "badge": "Mechanical Ventilation",
+      "description": "Free online courses for healthcare professionals covering mechanical ventilation topics. Select modules offer AARC-approved CRCE credits. Learn at your own pace, on any device.",
+      "hours": "Varies",
+      "url": "https://www.hamilton-medical.com/en_US/Academy/e-Academy.html",
+      "active": true,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "methapharm-free-crce-courses",
+      "name": "Methapharm Free CRCE Courses",
+      "badge": "Multi-Topic",
+      "description": "AARC and CSRT-approved on-demand courses at no cost to healthcare practitioners. Topics relevant to current clinical practice \u2014 available anytime to fit your schedule.",
+      "hours": "1.0+",
+      "url": "https://methapharmrespiratory.com/crce-courses/",
+      "active": true,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "continued-rt-\u2014-free-intro-course",
+      "name": "Continued RT \u2014 Free Intro Course",
+      "badge": "Multi-Topic",
+      "description": "Try a free AARC-approved CEU course from Continued Respiratory Therapy \u2014 no credit card, no commitment. Evidence-based content from leading RT experts.",
+      "hours": "1.0",
+      "url": "https://www.continued.com/respiratory-therapy/free-ceu-course",
+      "active": true,
+      "free": true,
+      "aarc_approved": true
+    }
+  ]
+}
