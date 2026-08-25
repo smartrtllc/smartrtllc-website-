@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-25T22:58:23.652982",
+  "updated": "2026-08-25T23:27:24.474645",
   "updated_display": "August 25, 2026",
-  "total_sources": 6,
-  "active_sources": 4,
+  "total_sources": 9,
+  "active_sources": 6,
   "journal_current_months": [
     "Register for the August 2026 Course",
     "Register for the July 2026 Course",
@@ -71,6 +71,39 @@
       "description": "Try a free AARC-approved CEU course from Continued Respiratory Therapy \u2014 no credit card, no commitment. Evidence-based content from leading RT experts.",
       "hours": "1.0",
       "url": "https://www.continued.com/respiratory-therapy/free-ceu-course",
+      "active": true,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "aerogen-ceu-accredited-education",
+      "name": "Aerogen CEU-Accredited Education",
+      "badge": "Aerosol / Drug Delivery",
+      "description": "Free CEU-accredited webinars and modules on medical aerosol administration from Aerogen. Covers aerosol drug delivery in ventilated and non-ventilated patients across critical care and emergency settings.",
+      "hours": "1.0+",
+      "url": "https://education.aerogen.com/",
+      "active": false,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "fisher-and-paykel-\u2014-evidence-in-action",
+      "name": "Fisher & Paykel \u2014 Evidence in Action",
+      "badge": "High Flow / Humidification",
+      "description": "Free access to Fisher & Paykel Evidence in ACTION webinars on-demand. Earn CRCE credits covering high flow therapy, humidification, and sleep therapy. Certificates emailed same day.",
+      "hours": "1.0",
+      "url": "https://www.fphcare.com/us/events/respiratory-care/evidence-in-action/",
+      "active": true,
+      "free": true,
+      "aarc_approved": true
+    },
+    {
+      "id": "vapotherm-academy-\u2014-20+-free-ceus",
+      "name": "Vapotherm Academy \u2014 20+ Free CEUs",
+      "badge": "High Velocity Therapy",
+      "description": "Over 20 free on-demand AARC-approved CRCE courses built by doctors, RTs, nurses, and coaches. Topics include high velocity therapy, ethics, COPD, hypercapnic respiratory failure, and post-extubation support.",
+      "hours": "1.0 each",
+      "url": "https://academy.vapotherm.com/",
       "active": true,
       "free": true,
       "aarc_approved": true
