@@ -52,8 +52,32 @@ SOURCES = [
         "description": "Try a free AARC-approved CEU course from Continued Respiratory Therapy — no credit card, no commitment. Evidence-based content from leading RT experts.",
         "hours": "1.0",
         "source_url": "https://www.continued.com/respiratory-therapy/free-ceu-course"
-    }
-]
+    },
+        
+    {
+        "name": "Aerogen CEU-Accredited Education",
+        "url": "https://education.aerogen.com/",
+        "badge": "Aerosol / Drug Delivery",
+        "description": "Free CEU-accredited webinars and modules on medical aerosol administration from Aerogen. Covers aerosol drug delivery in ventilated and non-ventilated patients across critical care and emergency settings.",
+        "hours": "1.0+",
+        "source_url": "https://education.aerogen.com/"
+    },
+    {
+        "name": "Fisher & Paykel — Evidence in Action",
+        "url": "https://www.fphcare.com/us/events/respiratory-care/evidence-in-action/",
+        "badge": "High Flow / Humidification",
+        "description": "Free access to Fisher & Paykel Evidence in ACTION webinars on-demand. Earn CRCE credits covering high flow therapy, humidification, and sleep therapy. Certificates emailed same day.",
+        "hours": "1.0",
+        "source_url": "https://www.fphcare.com/us/events/respiratory-care/evidence-in-action/"
+    },
+    {
+        "name": "Vapotherm Academy — 20+ Free CEUs",
+        "url": "https://academy.vapotherm.com/",
+        "badge": "High Velocity Therapy",
+        "description": "Over 20 free on-demand AARC-approved CRCE courses built by doctors, RTs, nurses, and coaches. Topics include high velocity therapy, ethics, COPD, hypercapnic respiratory failure, and post-extubation support.",
+        "hours": "1.0 each",
+        "source_url": "https://academy.vapotherm.com/"
+    }]
 
 def check_source_active(url):
     """Check if a CEU source URL is still active"""
