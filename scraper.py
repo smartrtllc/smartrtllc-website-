@@ -79,8 +79,16 @@ SOURCES = [
         "source_url": "https://academy.vapotherm.com/"
     }]
 
+# Sources that require JavaScript and can't be verified by simple HTTP check
+ALWAYS_ACTIVE = [
+    "https://education.aerogen.com/"
+]
+
 def check_source_active(url):
     """Check if a CEU source URL is still active"""
+    # Some sites require JavaScript — whitelist them as always activeh
+    if url in ALWAYS_ACTIVE:
+        return True
     try:
         r = requests.get(url, timeout=10, headers={
             'User-Agent': 'Mozilla/5.0 SmartRT CEU Checker'
@@ -88,7 +96,6 @@ def check_source_active(url):
         return r.status_code == 200
     except:
         return False
-
 def scrape_aarc_journal_courses():
     """Scrape current AARC journal course months"""
     try:
