@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-25T23:27:24.474645",
+  "updated": "2026-08-25T23:37:14.838977",
   "updated_display": "August 25, 2026",
   "total_sources": 9,
-  "active_sources": 6,
+  "active_sources": 7,
   "journal_current_months": [
     "Register for the August 2026 Course",
     "Register for the July 2026 Course",
@@ -82,7 +82,7 @@
       "description": "Free CEU-accredited webinars and modules on medical aerosol administration from Aerogen. Covers aerosol drug delivery in ventilated and non-ventilated patients across critical care and emergency settings.",
       "hours": "1.0+",
       "url": "https://education.aerogen.com/",
-      "active": false,
+      "active": true,
       "free": true,
       "aarc_approved": true
     },
