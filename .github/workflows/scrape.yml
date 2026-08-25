@@ -1,0 +1,33 @@
+name: Weekly CEU Scraper
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6am UTC
+  workflow_dispatch:       # Also allows manual trigger anytime
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run CEU scraper
+        run: python scraper.py
+
+      - name: Commit updated CEU list
+        run: |
+          git config --global user.name 'SmartRT CEU Bot'
+          git config --global user.email 'bot@smartrtllc.com'
+          git add ceus.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Weekly CEU update $(date '+%Y-%m-%d')"
+          git push
