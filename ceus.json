@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-09T15:46:39.966801",
-  "updated_display": "November 09, 2026",
+  "updated": "2026-11-16T15:21:45.718747",
+  "updated_display": "November 16, 2026",
   "total_sources": 9,
-  "active_sources": 7,
+  "active_sources": 8,
   "journal_current_months": [
+    "Register for the October 2026 Course",
     "Register for the September 2026 Course",
-    "Register for the August 2026 Course",
-    "Register for the July 2026 Course"
+    "Register for the August 2026 Course"
   ],
   "ceus": [
     {
@@ -38,7 +38,7 @@
       "description": "Free AARC-approved CRCE webinars from Dr\u00e4ger covering neonatal respiratory support, ventilator management, and best practices. Each program approved for 1.0 CRCE contact hour.",
       "hours": "1.0",
       "url": "https://www.draeger.com/en-us_us/Hospital/A-Breath-Ahead",
-      "active": false,
+      "active": true,
       "free": true,
       "aarc_approved": true
     },
